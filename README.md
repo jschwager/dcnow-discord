@@ -41,7 +41,7 @@ To run this script automatically on a schedule, use cron:
 
 2. Add an entry (example: run every 30 minutes):
     ```cron
-    */30 * * * * /usr/bin/python3 /path/to/dcnow-discord/dcnow_discord.py
+    */30 * * * * /usr/bin/python3 /path/to/dcnow-discord/main.py
     ```
 
 3. Common cron patterns:
