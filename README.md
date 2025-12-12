@@ -7,7 +7,7 @@ A Python script that integrates with monitors [Dreamcast Now!](https://dreamcast
 
 1. Clone the repository and navigate to the project directory.
 ```bash
-git clone https://github.com/yourusername/dcnow-discord.git
+git clone https://github.com/jschwager/dcnow-discord.git
 cd dcnow-discord
 ```
 2. Install dependencies using pip:
