@@ -39,9 +39,9 @@ To run this script automatically on a schedule, use cron:
     crontab -e
     ```
 
-2. Add an entry (example: run every 30 minutes):
+2. Add an entry (example: run every 5 minutes):
     ```cron
-    */30 * * * * /usr/bin/python3 /path/to/dcnow-discord/main.py
+    */5 * * * * cd /home/pi/dcnow-discord && python3 main.py >> app.log 2>&1
     ```
 
 3. Common cron patterns:
