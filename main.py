@@ -33,8 +33,8 @@ def compare_users():
         # Extract usernames from old data for comparison
         old_usernames = {user["username"] for user in old_users_list}
         
-        # Find new users
-        new_users = [user for user in new_users_list if user["username"] not in old_usernames]
+        # Find new users, excluding those starting with "Unnamed_"
+        new_users = [user for user in new_users_list if user["username"] not in old_usernames and not user["username"].startswith("Unnamed_")]
         
         # DEBUG: Print old users and new users
         if debug == True:
