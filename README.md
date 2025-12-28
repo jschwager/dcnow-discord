@@ -15,6 +15,7 @@ cd dcnow-discord
 ```bash
 pip install -r requirements.txt
 ```
+**NOTE:** You may need to use the ```--break-system-packages``` option if you receive a message regarding the environment being externally managed.
 
 ## Configuration
 
