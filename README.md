@@ -1,5 +1,5 @@
 
-# Dreamcast Now! Discord bot
+# Dreamcast Now Discord bot
 
 A Python script that integrates with and monitors [Dreamcast Now](https://dreamcast.online/now/) for newly logged on users and posts them to a Discord channel using a webhook.
 
